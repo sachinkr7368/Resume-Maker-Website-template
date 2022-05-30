@@ -7,3 +7,59 @@
 }
 
 /* Write CSS code below */
+body {
+    background-color: #a6abad;
+}
+.main-content{ 
+    min-height: 1000px;
+    width: 90%;
+    margin:20px auto;
+    display:grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 300px 700px;
+}
+
+
+.left-section{
+    grid-area: 1/1/3/2;
+    grid-column: span 1;
+    background-color: #242531;
+}
+.left-content{
+    padding: 1em;
+}
+.profile-image {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: 5px  white;    
+    border-radius: 30%;
+    width: 60%;
+    } 
+.name{
+    color:#f5f5f5;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    word-spacing: 0.02px;
+}
+.designation{
+    color:#94D9EA;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    color: #f5f5f5;
+    font-size: 0.75rem;
+    text-align: center;
+    padding:1rem;
+}
+.right-section{
+    grid-area: 1/2/3/3;
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
+}
