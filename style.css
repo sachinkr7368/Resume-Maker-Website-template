@@ -18,12 +18,10 @@ body {
     grid-template-rows: 20% 80%;
     grid-template-columns: 300px 700px;
 }
-
-
 .left-section{
     grid-area: 1/1/3/2;
     grid-column: span 1;
-    background-color: #242531;
+    background-color: #035838;
 }
 .left-content{
     padding: 1em;
@@ -37,13 +35,14 @@ body {
     width: 60%;
     } 
 .name{
-    color:#f5f5f5;
-    text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
+    word-spacing: 0.02px;
+    color: #f5f5f5;
+    text-align: center;
     padding: 0.8rem;
     text-transform: uppercase;
-    word-spacing: 0.02px;
+    
 }
 .designation{
     color:#94D9EA;
@@ -57,9 +56,15 @@ body {
     font-size: 0.75rem;
     text-align: center;
     padding:1rem;
-}
+}  
+
 .right-section{
     grid-area: 1/2/3/3;
     grid-column: span 1 / span 2;
     background-color: #f7f7f7;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
