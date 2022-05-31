@@ -5,8 +5,6 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* Write CSS code below */
 body {
     background-color: #a6abad;
 }
@@ -24,7 +22,7 @@ body {
     background-color: #035838;
 }
 .left-content{
-    padding: 1em;
+    padding: 1rem;
 }
 .profile-image {  
     display: block;  
@@ -67,4 +65,68 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5px;
+}
+.social-media li {
+    list-style-type: none;
+}
+.social-media li a {
+    text-decoration: none;
+    color: #fff;
+}
+.social-media li i {
+    color: rgb(104, 176, 218);
+}
+.personal-details {
+    padding: 5px;
+}
+.personal-details li {
+    padding: 5px 2px;
+    list-style-type: none;
+}
+.personal-details li i {
+    color: rgb(104, 176, 218);
+}
+.skills {
+    text-align: center;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.skill-item {
+    padding: 10px;
+}
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar {
+    border: 1px solid white;
+    height: 2px;
+    background-color: #fff;
+}
+.right-main-content {
+    padding: 2rem 3rem;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.para {
+    padding-left: 0.5rem;
+}
+@media screen and (max-width: 673px) {
+        .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
