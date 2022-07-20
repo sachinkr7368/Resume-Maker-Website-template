@@ -56,7 +56,7 @@ body {
 }  
 
 .right-section{
-   /* grid-area: 1/2/3/3;*/
+    grid-area: 1/2/3/3;
     grid-column: span 1 / span 2;
     background-color: #f7f7f7;
 }
